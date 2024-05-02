@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester Library</title>
+    <link rel="stylesheet" href="fix.css">
+</head>
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="gambar/lomu.png" alt="Logo">
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="wo.html">What's on</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#su" class="cta-button">Sign up</a></li>
+            <button onclick="darkMode()">🌙</button>
+            <button onclick="lightMode()">🌞</button>
+            <script>
+                function darkMode() {
+                    let element = document.body;
+                    let content = document.getElementById("DarkModetext");
+                    element.className = "dark-mode";
+                    content.innerText = "Dark Mode is ON";
+                }
+                function lightMode() {
+                    let element = document.body;
+                    let content = document.getElementById("DarkModetext");
+                    element.className = "light-mode";
+                    content.innerText = "Dark Mode is OFF";
+                }
+            </script>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <a href="#" class="closebtn">&times;</a>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#what'son">About</a></li>
+            <li><a href="#" class="cta-button">Sign up</a></li>
+        </ul>
+    </div>
+</header>
+
+<body>
+    <section id="home">
+        <div class="gambar">
+            <img src="gambar/labbrit-2.jpg" alt="landscape">
+        </div>
+    </section>
+    <div class="card1">
+        <div class="card-content1">
+            <h2 class="card-title1">Manchester Library</h2>
+            <p class="card-text1">We are the national library of the UK. Our shelves hold over 170 million items - a
+                living collection that gets bigger every day.
+                Although our roots extend back centuries, we collect everything published today, tomorrow and decades
+                into the future. We have millions of books, but also newspapers, maps, sound recordings, patents and
+                stamps. Our spaces are open for study, a place to meet friends, to start up a new business or to get
+                inspired by visiting our galleries and events. We're continuing to experience a major technology outage
+                as a result of a cyber-attack. Our buildings are open as usual, however, the outage is still affecting
+                our website, online systems and services, as well as some onsite services. This is a temporary website,
+                with limited content outlining the services that are currently available, as well as what's on at the
+                Library.</p>
+            <a href="#" class="card-button1">Read more</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <section id="research">
+        <div class="mamat">
+            <h2>Research</h2>
+        </div>
+        <div class="container">
+            <div class="grid-container">
+                <div class="grid-item">
+                    <div class="card">
+                        <img class="w-100" src="gambar/labbrit-2.jpg" alt="gambar alam">
+                        <div class="card-body">
+                            <h5 class="card-title">Using the Library</h5>
+                            <p class="card-text">We're a bit different to your local library. You can't take<br>books
+                                out,
+                                but you can use our Reading Rooms in London and Yorkshire..
+                            </p>
+                            <a href="#" class="card-button1">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <img class="w-100" src="gambar/gedung-3.jpg" alt="gambar teknologi">
+                        <div class="card-body">
+                            <h5 class="card-title">Visit the Manchester Library</h5>
+                            <p class="card-text">You can visit our buildings in London or Yorkshire for free, although
+                                our services are currently limited.<br></p>
+                            <a href="#" class="card-button1">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="whatson">
+        <div class="mamat1">
+            <h2>What's On</h2>
+        </div>
+        <div class="container">
+            <div class="grid-container">
+                <div class="grid-item">
+                    <div class="card">
+                        <img class="w-100" src="gambar/wo1-2.jpg" alt="gambar alam">
+                        <div class="card-body">
+                            <h5 class="card-title">Events and exhibitions</h5>
+                            <p class="card-text">Join us for transporting exhibitions, events with a host of world-class
+                                speakers, courses designed to expand your perspectives and inspiring workshops for
+                                families.</p>
+                            <a href="#" class="card-button1">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <img class="w-100" src="gambar/wo2-2.jpg" alt="gambar teknologi">
+                        <div class="card-body">
+                            <h5 class="card-title">Business & IP Centre</h5>
+                            <p class="card-text">We support small business owners, entrepreneurs, inventors and anyone
+                                with a business idea. Offering insights and access to free resources, training and
+                                events.</p>
+                            <a href="#" class="card-button1">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="service">
+        <div class="mamat2">
+            <h2>Services</h2>
+        </div>
+        <div class="container">
+            <div class="grid-container">
+                <div class="grid-item">
+                    <div class="card">
+                        <img class="w-100" src="gambar/serbit-2.jpg" alt="gambar alam">
+                        <div class="card-body">
+                            <h5 class="card-title">More Manchester Library services</h5>
+                            <p class="card-text">Information about British Library services, including Public Lending
+                                Right (PLR) and legal deposit.</p>
+                            <a href="service.html" class="card-button1">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <img class="w-100" src="gambar/serbit2-2.jpg" alt="gambar teknologi">
+                        <div class="card-body">
+                            <h5 class="card-title">Cyber incident update</h5>
+                            <p class="card-text">We're continuing to experience a major technology outage as a result of
+                                a cyber-attack that took place last October.</p>
+                            <a href="#" class="card-button1">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="su">
+        <div class="su">
+        </div>
+        <form>
+            <label for="nama">Name:</label>
+            <input type="text" id="nama" name="nama"><br><br>
+            <label for="alamat">Addres:</label>
+            <input type="text" id="alamat" name="alamat"><br><br>
+            <label for="no_telepon">Phone number:</label>
+            <input type="tel" id="no_telepon" name="no_telepon"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+</body>
+<!--Footer-->
+<footer>
+    <div class="container">
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="service.html#cous">Contact Us</a></li>
+            <li><a href="service.html">Terms of Service</a></li>
+        </ul>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's on Today</title>
+    <link rel="stylesheet" href="wo.css">
+</head>
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="gambar/lomu.png" alt="Logo">
+        </div>
+        <ul class="menu">
+            <li><a href="#nw">News</a></li>
+            <li><a href="fix.html">Home</a></li>
+            <li><a href="#uce">Events</a></li>
+            <li><a href="#whatson">What's on</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="fix.html#su" class="cta-button">Sign up</a></li>
+            <button onclick="darkMode()">🌙</button>
+            <button onclick="lightMode()">🌞</button>
+            <script>
+                function darkMode() {
+                    let element = document.body;
+                    let content = document.getElementById("DarkModetext");
+                    element.className = "dark-mode";
+                    content.innerText = "Dark Mode is ON";
+                }
+                function lightMode() {
+                    let element = document.body;
+                    let content = document.getElementById("DarkModetext");
+                    element.className = "light-mode";
+                    content.innerText = "Dark Mode is OFF";
+                }
+            </script>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <a href="#" class="closebtn">&times;</a>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#what'son">About</a></li>
+            <li><a href="" class="cta-button">Contact Us</a></li>
+        </ul>
+    </div>
+</header>
+
+<body>
+    <div class="gambar">
+        <img src="gambar/serbit-2.jpg" alt="landscape">
+    </div>
+    <div class="abdul">
+        <h1>Welcome to</h1>
+        <h2>Manchester Library</h2>
+    </div>
+    <section id="nw">
+        <div class="goni">
+            <h3>News</h3>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <img src="wo/kebit.jpg" alt="Article image" class="card-img">
+                <div class="card-body">
+                    <h5 class="card-title">Sir Roly Keating to step down as Chief</h5>
+                    <p class="card-text">“Being at the helm of the British Library has been and continues to be the
+                        greatest
+                        privilege of my life.”...</p>
+                    <a href="#" class="btn btn-primary">Find out</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="wo/news.jpg" alt="Article image" class="card-img">
+                <div class="card-body">
+                    <h5 class="card-title">Reader Registration improvements</h5>
+                    <p class="card-text">We're now able to issue photographic Reader Passes again. Anyone with a
+                        photographic pass...</p>
+                    <a href="#" class="btn btn-primary">Find out</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="wo/news1.jpg" alt="Article image" class="card-img">
+                <div class="card-body">
+                    <h5 class="card-title">Learning lessons from the cyber-attack</h5>
+                    <p class="card-text">Today we've published a paper about the cyber-attack that took place last
+                        October.
+                        Its goal is to share...</p>
+                    <a href="#" class="btn btn-primary">Find out</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="uce">
+        <div class="event">
+            <h3>Upcoming events</h3>
+        </div>
+    </section>
+    <br>
+    <article>
+        <h1>The 1975 on Manchester</h1>
+        <img src="wo/th19.jpg" alt="Article Image" width="200px">
+        <p>The 1975 today announce new dates on the UK and Europe leg of their 'Still… At Their Very Best' tour in
+            February and March 2024.
+
+            Due to phenomenal presale demand</p>
+        <a href="#" class="btn btn-primary">Book now</a>
+    </article>
+    <article>
+        <h1>Treasures of the British Library</h1>
+        <img src="wo/event1.jpg" alt="Article Image" width="200px" height="194px">
+        <p>Explore some of the world's most exciting, beautiful and significant books, maps and manuscripts in our
+            permanent exhibition. Visit for free, no booking required, or dive deeper on a tour.</p>
+        <a href="#" class="btn btn-primary">Book now</a>
+    </article>
+    <article>
+        <h1>Beyond the Bassline: 500 Years of Black British Music</h1>
+        <img src="wo/event2.jpg" alt="Article Image" width="200px" height="194px">
+        <p>Explore some of the world's most exciting, beautiful and significant books, maps and manuscripts in our
+            permanent exhibition. Visit for free, no booking required, or dive deeper on a tour.</p>
+        <a href="#" class="btn btn-primary">Book now</a>
+    </article>
+    <article>
+        <h1>Liz Johnson Artur Black Balloon Archive (Save the date)</h1>
+        <img src="wo/event3.jpg" alt="Article Image" width="200px" height="194px">
+        <p>Alongside the Beyond the Bassline: 500 Years of Black British Music exhibition, photographer Liz Johnson
+            Artur has selected works from her Black Balloon Archive which explore representations of pleasure, intimacy,
+            beauty and love.</p>
+        <a href="#" class="btn btn-primary">Coming soon</a>
+    </article>
+</body>
+<footer>
+    <div class="wahyuni">
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+        <ul>
+            <li><a href="fix.html">Home</a></li>
+            <li><a href="service.html#cous">Contact Us</a></li>
+            <li><a href="service.html">Team of Service</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+</html>
